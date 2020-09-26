@@ -13,7 +13,17 @@ function writePassword() {
 }
 
 
+// ACTIVATE generatePASSWORD FUNCTION
+function generatePassword(){
+// LIST VARIABLES TO BE TRACKED BY BUTTON, USER INPUTS DATA:
+  // var TBD
+}
+// HOW MANY OF EACH CHARACTER IS REQUIRED? TYPICALLY, IT IS ONE OF EACH:
+var minimumCount = 1;
 
-
-// LIST VARIABLES TO BE TRACKED BY BUTTON
+var minimumNumber = 1;
+var minimumLowerCase = 1;
+var minimumUpperCase = 1;
+var minimum SpecialCharacters = 1;
+// CHECK TO SEE IF VARS NEED TO BE STRINGS HERE ^^
 
