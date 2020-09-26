@@ -15,15 +15,22 @@ function writePassword() {
 
 // ACTIVATE generatePASSWORD FUNCTION
 function generatePassword(){
-// LIST VARIABLES TO BE TRACKED BY BUTTON, USER INPUTS DATA:
-  // var TBD
-}
-// HOW MANY OF EACH CHARACTER IS REQUIRED? TYPICALLY, IT IS ONE OF EACH:
-var minimumCount = 1;
+// LIST VARIABLES TO BE TRACKED BY BUTTON, USER INPUTS DATA BASED ON QUESTIONS:
+  var passwordLength = prompt("How many characters should be in this password?")
+  var numbers = confirm("Should this password include numbers?")
+  var upperCase = confirm("Should this password include upper case characters?")
+  var lowerCase = confirm("Should this password include lower case characters?")
+  var specialCharacters = confirm("Should special characters be included in this password?")
 
-var minimumNumber = 1;
-var minimumLowerCase = 1;
-var minimumUpperCase = 1;
-var minimum SpecialCharacters = 1;
+}
+// HOW MANY OF EACH CHARACTER IS REQUIRED? TYPICALLY, WE WILL ALLOW WHATEVER CONFIGURATION OF PASSWORD THE USER DESIRES:
+var minimumCount = 0;
+
+var minimumNumber = "";
+var minimumLowerCase = "";
+var minimumUpperCase = "";
+var minimum SpecialCharacters = "";
 // CHECK TO SEE IF VARS NEED TO BE STRINGS HERE ^^
 
+
+// ONCE PARAMETERES (DATA) HAVE BEEN ENTERED, PASSWORD NEEDS TO BE generatePassword. START BY SETTING UP NEW FUNCTION TO RANDOMIZE DATA. 
